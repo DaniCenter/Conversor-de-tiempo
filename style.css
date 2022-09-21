@@ -1,0 +1,11 @@
+#textResult {
+  resize: none;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+fieldset {
+  display: flex;
+  justify-content: space-between;
+}

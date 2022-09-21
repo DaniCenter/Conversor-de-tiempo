@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Convierte tu hora a otras horas :v ⌚</h1>
+      <form>
+        <label for="fechaHora">Introduce tu fecha y hora</label>
+        <input type="datetime-local" id="fechaHora" name="date" />
+        <fieldset>
+          <legend><strong>Checkboxes</strong></legend>
+          <div class="column">
+            <label for="checkbox-1">
+              <input type="checkbox" id="checkbox-1" name="peru" checked="" />
+              Perú
+            </label>
+            <label for="checkbox-2">
+              <input type="checkbox" id="checkbox-2" name="chile" />
+              Chile
+            </label>
+          </div>
+          <div class="column">
+            <label for="checkbox-3">
+              <input type="checkbox" id="checkbox-3" name="argentina" checked="" />
+              Argentina
+            </label>
+            <label for="checkbox-4">
+              <input type="checkbox" id="checkbox-4" name="colombia" />
+              Colombia
+            </label>
+          </div>
+          <div class="column">
+            <label for="checkbox-5">
+              <input type="checkbox" id="checkbox-5" name="bolivia" checked="" />
+              Bolivia
+            </label>
+            <label for="checkbox-6">
+              <input type="checkbox" id="checkbox-6" name="ee.uu" />
+              EE.UU
+            </label>
+          </div>
+          <div class="column">
+            <label for="checkbox-7">
+              <input type="checkbox" id="checkbox-7" name="paraguay" checked="" />
+              Paraguay
+            </label>
+            <label for="checkbox-8">
+              <input type="checkbox" id="checkbox-8" name="venezuela" />
+              Venezuela
+            </label>
+          </div>
+        </fieldset>
+        <button type="submit">Procesar</button>
+      </form>
+      <textarea cols="30" rows="10" placeholder="Aqui estara tu texto..." id="textResult" readonly></textarea>
+      <button class="secondary" id="copiar">COPIAR</button>
+    </main>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>

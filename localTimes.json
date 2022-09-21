@@ -1,0 +1,34 @@
+[
+  {
+    "pais": "peru",
+    "time": "America/Lima"
+  },
+  {
+    "pais": "venezuela",
+    "time": "America/Caracas"
+  },
+  {
+    "pais": "chile",
+    "time": "America/Santiago"
+  },
+  {
+    "pais": "argentina",
+    "time": "America/Buenos_Aires"
+  },
+  {
+    "pais": "colombia",
+    "time": "America/Bogota"
+  },
+  {
+    "pais": "bolivia",
+    "time": "America/La_Paz"
+  },
+  {
+    "pais": "ee.uu",
+    "time": "America/New_York"
+  },
+  {
+    "pais": "paraguay",
+    "time": "America/Asuncion"
+  }
+]
